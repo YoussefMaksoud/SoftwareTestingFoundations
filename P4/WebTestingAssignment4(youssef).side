@@ -1,0 +1,470 @@
+{
+  "id": "17f45f51-4ad3-4a18-8a3f-675f688ab317",
+  "version": "2.0",
+  "name": "WebTestingAssignment4",
+  "url": "https://www.ikea.com/ca/en/",
+  "tests": [{
+    "id": "64137807-684d-4798-b6ae-a605d59c5ca2",
+    "name": "SearchForCouchAddToFavorites",
+    "commands": [{
+      "id": "7d8d62bd-15de-4b57-8cd4-c49e9d1453b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9c01a07-ec1d-40b2-987b-eca5eead8bf1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "839x598",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e72fd708-ef0b-4656-86c7-f7ea5249619a",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46048294-c53b-40a4-bdab-75c0f48d9bdb",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "UPPLAND"
+    }, {
+      "id": "b820f18f-4ae9-428a-9cc6-3564d1157ba1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "26fe4bf5-5295-458c-b4c3-db7c51486107",
+      "comment": "",
+      "command": "click",
+      "target": "css=.serp-grid__item:nth-child(1) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.serp-grid__item:nth-child(1) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/uppland-sofa-blekinge-white__0818564_pe774486_s5.jpg?f=xxs')]", "xpath:img"],
+        ["xpath=//div[@id='search-results']/div/a/div/span[2]/img", "xpath:idRelative"],
+        ["xpath=//span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7bd9b83-bae2-440f-9093-2a44c07aca2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,295)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b6ea19f-3b6c-45f2-a87a-3dc23873d276",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,847)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55b3142d-0338-4789-b87d-f207b4be8792",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,944)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d0663eb-28a9-4c6a-b10b-f2e3d43c3449",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-btn--icon-secondary path",
+      "targets": [
+        ["css=.range-revamp-btn--icon-secondary path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "96148622-b4a1-447d-bbb4-d5efc7606d8e",
+    "name": "SelectLoadMoreSetupsAndFavoriteAllComponentsofSetup",
+    "commands": [{
+      "id": "b3dcbbd3-d2c5-4584-82f7-7115c0dfdda2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58262832-89ce-4ec5-bb38-1b616260b2b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76e3f002-f501-40ed-97bf-112d5437e5c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ba208d94-8350-11eb-8f61-a1f443d9a93c .co1kzr9",
+      "targets": [
+        ["css=#ba208d94-8350-11eb-8f61-a1f443d9a93c .co1kzr9", "css:finder"],
+        ["xpath=//img[@alt='Flex your green thumb. Dust off your plant pots and get ready to grow.']", "xpath:img"],
+        ["xpath=//div[@id='ba208d94-8350-11eb-8f61-a1f443d9a93c']/figure/pub-hide-empty-link/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df78580-d806-44c3-8d25-d65098852ec4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ba208d94-8350-11eb-8f61-a1f443d9a93c .co1kzr9",
+      "targets": [
+        ["css=#ba208d94-8350-11eb-8f61-a1f443d9a93c .co1kzr9", "css:finder"],
+        ["xpath=//img[@alt='Flex your green thumb. Dust off your plant pots and get ready to grow.']", "xpath:img"],
+        ["xpath=//div[@id='ba208d94-8350-11eb-8f61-a1f443d9a93c']/figure/pub-hide-empty-link/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5084799-515d-45db-b833-9b9e1d17a057",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='A healthy and safe way to shop. Click here to learn more about enhanced safety measures across the entire shopping experience.']", "xpath:img"],
+        ["xpath=//div[@id='ba208d91-8350-11eb-8f61-a1f443d9a93c']/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "378a1f2e-5a2d-468b-8eba-660d7516077a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='A healthy and safe way to shop. Click here to learn more about enhanced safety measures across the entire shopping experience.']", "xpath:img"],
+        ["xpath=//div[@id='ba208d91-8350-11eb-8f61-a1f443d9a93c']/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf7c2bfe-c2e1-4b15-8fe2-dcf5b406f165",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,324)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee3b0603-6a70-466d-95c2-78345c53db47",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,874)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5abfec62-ee14-4f25-b3a0-c6ee966f3f21",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3994)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84da3550-fe86-4b12-8640-10c629db9d0d",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ofeed-btn--small > .ofeed-btn__inner",
+      "targets": [
+        ["css=.ofeed-btn--small > .ofeed-btn__inner", "css:finder"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Load 12 more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2dd7ab8-8d3f-459a-9cf6-591bb0d03557",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ofeed-btn__label",
+      "targets": [
+        ["css=.ofeed-btn__label", "css:finder"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ef32ae4-be75-486c-a9f9-94baea5b7341",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ofeed-btn--small > .ofeed-btn__inner",
+      "targets": [
+        ["css=.ofeed-btn--small > .ofeed-btn__inner", "css:finder"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Load 12 more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de170f23-3362-4951-bf85-5c965b6e644b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ofeed-btn__label",
+      "targets": [
+        ["css=.ofeed-btn__label", "css:finder"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee761a6-0718-4c2b-aad2-6591100c890e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ofeed-btn__label",
+      "targets": [
+        ["css=.ofeed-btn__label", "css:finder"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa4b219b-fc20-454c-96d9-ecb8a1c3ef6f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ofeed-thumbnail-grid__item:nth-child(13) .ofeed-aspect-ratio-image__image",
+      "targets": [
+        ["css=.ofeed-thumbnail-grid__item:nth-child(13) .ofeed-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[@alt='Close-up of ODDLAUG sound absorbent panel in grey against a grey background, with the metal hanging clips visible.']", "xpath:img"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[2]/div[13]/div/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d1fff64-d596-4732-9ce7-aa4191c4ecf1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ofeed-thumbnail-grid__item:nth-child(13) .ofeed-aspect-ratio-image__image",
+      "targets": [
+        ["css=.ofeed-thumbnail-grid__item:nth-child(13) .ofeed-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[@alt='Close-up of ODDLAUG sound absorbent panel in grey against a grey background, with the metal hanging clips visible.']", "xpath:img"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[2]/div[13]/div/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e28c2d1-7939-418d-92d0-1c5e22af15b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8854)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c733d38d-f8de-4d16-9302-9733741ef638",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9571)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "274adf71-49cb-4287-a6bc-9239d9c3810a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ofeed-thumbnail-grid__item:nth-child(19) .ofeed-aspect-ratio-image__image",
+      "targets": [
+        ["css=.ofeed-thumbnail-grid__item:nth-child(19) .ofeed-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[@alt='Close up of a GLADOM tray that holds a cup of tea and a cookie. The tray rests on a light-green footstool near a sofa.']", "xpath:img"],
+        ["xpath=//div[@id='ba208dd9-8350-11eb-8f61-a1f443d9a93c']/div/div/div/div[2]/div[19]/div/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[19]/div/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4198ddc0-1d83-46c2-800f-3a4deb26bdc9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package__price-wrapper",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package__price-wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/div/a/div/div[3]", "xpath:idRelative"],
+        ["xpath=//a/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d05b3934-9d9a-4130-ace4-05fab7e56474",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package__price-wrapper",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package__price-wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/div/a/div/div[3]", "xpath:idRelative"],
+        ["xpath=//a/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7061bbad-2377-4269-9ed9-4693d19cc31c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7945e84d-2e1b-4c12-9660-9b92035b8d46",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-compact-price-package", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc31841-2df0-4dfe-95eb-ebc1a2d873f3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-btn",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610bd923-7f20-42a8-9822-e559e0a948c5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-btn",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06c7b969-448b-4d06-8374-5b1bbe6c505b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cg-compact-fragment:nth-child(1) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(1) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0a4c6d-f4c8-4ddb-b93b-c5a8a0aec8d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cg-compact-fragment:nth-child(2) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(2) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cbd3b9b-d650-4518-9f05-b911390d7765",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-cg-compact-fragment:nth-child(2) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(2) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d9d90d-7794-493c-a6af-711bd021a6aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-cg-compact-fragment:nth-child(2) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(2) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b180e9d-868e-47bf-b9b8-7e1308a99f71",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,119)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0105e150-3f82-4bb9-a507-159866abc934",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cg-compact-fragment:nth-child(3) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(3) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a24ba59a-1b6c-4436-98ba-8f0a40f4bedd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-cg-compact-fragment:nth-child(4) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(4) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "898d5f6e-51e0-46d8-a879-4ef8e94ec196",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cg-compact-fragment:nth-child(4) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(4) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "390e353a-352c-4a0c-8deb-a55074c9450c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-cg-compact-fragment:nth-child(4) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.js-cg-compact-fragment:nth-child(4) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[3]/div[2]/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f8dfe504-5298-4eb5-8cf3-07b9e6978ab9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64137807-684d-4798-b6ae-a605d59c5ca2"]
+  }],
+  "urls": ["https://www.ikea.com/ca/en/"],
+  "plugins": []
+}
